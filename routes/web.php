@@ -40,6 +40,7 @@ Route::group(['middleware' => 'admin'], function () {
     Route::get('/dosen/delete/{id_dosen}', [DosenController::class, 'delete']);
 
     Route::get('/mahasiswa', [MahasiswaController::class, 'index']);
+    Route::get('/mahasiswa/add/', [MahasiswaController::class, 'add']);
     Route::get('/mahasiswa/print', [MahasiswaController::class, 'print']);
     Route::get('/mahasiswa/printpdf', [MahasiswaController::class, 'printpdf']);
 });

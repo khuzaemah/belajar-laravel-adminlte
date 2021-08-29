@@ -21,4 +21,9 @@ class MahasiswaModel extends Model
     // {
     //     DB::table('tbl_mahasiswa')->get();
     // }
+
+    public function addData($data)
+    {
+        DB::table('tbl_mahasiswa')->insert($data);
+    }
 }

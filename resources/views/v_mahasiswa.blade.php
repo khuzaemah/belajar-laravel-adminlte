@@ -3,6 +3,7 @@
 @section('title', 'Mahasiswa')
 
 @section('content')
+<a href="/mahasiswa/add" class="btn btn-primary">Add</a>
 <a href="/mahasiswa/print" target="_blank" class="btn btn-primary">Print to Printer</a>
 <a href="/mahasiswa/printpdf" target="_blank" class="btn btn-success">Print to PDF</a>
 
