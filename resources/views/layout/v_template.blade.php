@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | @yield('title')</title>
+  <title>Biodata | @yield('title')</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -37,9 +37,9 @@
     <!-- Logo -->
     <a href="{{asset('template')}}/index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>Bio</b></span>
+      <span class="logo-mini"><b>Lrv</b></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Biodata</b></span>
+      <span class="logo-lg"><b>Laravel</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
